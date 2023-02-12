@@ -39,11 +39,15 @@ body{
     height: 46px;
 }
 
-.img-header {
+.img-pos1 {
     display: flex;
-   
+    margin-top: 22px;
 }
 
+.footerlogo {
+    display: flex;
+    justify-content: flex-start;
+}
 .text-header {
     display: flex;
     margin: 10px;
@@ -81,7 +85,10 @@ body{
     
 }
 
-
+.footerlogo {
+    display: flex;
+    align-items: flex-start;
+}
 .btn-text {
     font-style: normal;
     font-size: 16px;
@@ -270,3 +277,60 @@ body{
     margin-top: 3px;
 }
 
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 146px;
+    width: 1109px;
+    height: 308px;
+    border-top: 1px solid #BCD0E57F;
+}
+
+
+.footer-content-left {
+    display: flex;
+    flex-direction: column;
+    width: 72px;
+    font-size: 16px;
+    line-height: 35px;
+    margin-top: 102px;
+}
+
+.footer-content-right {
+    display: flex;
+    flex-direction: column;
+    width: 132px;
+    font-size: 16px;
+    line-height: 35px;
+    margin-top: 102px;
+}
+
+.btn-sign-up-now-foot {
+   width: 131px;
+   height: 39px;
+   margin-top: 21px;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    width: 325px;
+    height: 199px;
+    margin-top: 102px;
+}
+
+.footer-input {
+    width: 325px;
+    height: 48px;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+}
+
+.img-pos2 {
+    display: flex;
+    margin-top: 102px;
+    position: relative;
+    top: -50px;
+
+   
+}
