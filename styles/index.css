@@ -217,6 +217,26 @@ body{
     margin-top: 3px;
 }
 
+.container4 {
+    display: flex;
+    margin-top: 101px;
+    width: 1121px;
+    justify-content: space-between;
+}
+
+.container4-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 486px;
+
+}
+
+.header4 {
+    max-width: 342px;
+    font-size: 36px;
+    line-height: 54px;
+}
 
 
 
@@ -232,6 +252,7 @@ body{
 .tick-text {
     display: flex;
     align-items: center;
+    width: 430px;
 }
 
 .tickmark-text {
