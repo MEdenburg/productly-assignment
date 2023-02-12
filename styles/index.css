@@ -26,6 +26,13 @@ body{
     
 }
 
+.btn:hover {
+    background-color: rgb(190, 104, 46);
+    scale: 1.05;
+    cursor: pointer;
+}
+
+
 .btn-sign-up {   
     border: none;
     width: 110px;
@@ -143,6 +150,85 @@ body{
 
 
 
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 110px;
+   
+
+}
+
+.container2-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 54px;
+    margin-bottom: 34px;
+    width: 1095px;
+    
+}
+
+.cont-2-title {
+    font-size: 22px;
+    line-height: 33px;
+}
+.header2 {
+    max-width: 539px;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+}
+
+.content2-width {
+    max-width: 240px;
+}
+
+.icon {
+    margin-bottom: 30px;
+}
+
+.btn-sign-up2 {
+  width: 175px;
+  height: 53px;
+  margin-bottom: 90px;
+  
+}
+
+.container3 {
+    display: flex;
+    margin-top: 120px;
+    width: 1110px;
+    justify-content: space-between;
+}
+
+.container3-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 486px;
+    
+}
+
+.header3 {
+    max-width: 385px;
+    font-size: 36px;
+    line-height: 54px;
+    margin-top: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .tick-text {
     display: flex;
     align-items: center;
@@ -151,3 +237,5 @@ body{
 .tickmark-text {
     margin-left: 30px;
 }
+
+
